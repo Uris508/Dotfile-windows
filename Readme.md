@@ -4,3 +4,17 @@
 
 ## app
 
+1. GlazeWM
+```
+winget install GlazeWM
+```
+
+2. Wezterm
+```
+winget install wez.wezterm
+```
+
+3. LazyGit
+```
+winget install -e --id JesseDuffield.lazygit
+```
