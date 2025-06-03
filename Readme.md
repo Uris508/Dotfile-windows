@@ -23,3 +23,8 @@ winget install -e --id JesseDuffield.lazygit
 ```
 winget install starship
 ```
+
+5. Zoxide
+```
+winget install --id=ajeetdsouza.zoxide -e
+```
