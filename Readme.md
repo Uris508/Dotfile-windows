@@ -27,4 +27,9 @@ winget install starship
 5. Zoxide
 ```
 winget install --id=ajeetdsouza.zoxide -e
+
+```
+6. Yazi
+```
+winget install --id=sxyazi.yazi -e 
 ```
