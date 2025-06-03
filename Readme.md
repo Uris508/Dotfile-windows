@@ -18,3 +18,8 @@ winget install wez.wezterm
 ```
 winget install -e --id JesseDuffield.lazygit
 ```
+
+4. Starship
+```
+winget install starship
+```
