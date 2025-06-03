@@ -1,0 +1,22 @@
+|	time=1748843955
+|tart.
+|	time=1748843974
+cd 70068_StrixKrackanPI-FP8_1.1.0.2_signed\
+|	time=1748843976
+cd StrixKrackanPI-FP8_1.1.0.2\
+|	time=1748843977
+ls
+|	time=1748843981
+|vim
+|	time=1748845856
+|d ..
+|	time=1748845858
+cd ..
+|	time=1748845869
+start.
+|	time=1748845904
+cd 70069_StrixKrackan_AMDEDKII_1.1.0.2_signed\
+|	time=1748845908
+cd AMDEDKII_StrixKrackan_1.1.0.2\
+|	time=1748845909
+nvim

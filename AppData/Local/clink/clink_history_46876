@@ -1,0 +1,48 @@
+|	time=1748858349
+|vim
+|	time=1748858734
+|vim
+|	time=1748858738
+|vim
+|	time=1748858740
+|vim
+|	time=1748858743
+|vim
+|	time=1748858785
+|vim
+|	time=1748858796
+|vim
+|	time=1748858815
+|vim
+|	time=1748858820
+|vim
+|	time=1748858833
+|vim
+|	time=1748858932
+|vim
+|	time=1748858952
+|vim
+|	time=1748859231
+nvim
+|	time=1748859622
+echo %AppData%
+|	time=1748859640
+cd %AppData%
+|	time=1748859641
+|s
+|	time=1748859643
+|d nvim
+|	time=1748859645
+|s
+|	time=1748859647
+cd ..
+|	time=1748859648
+ls
+|	time=1748859652
+cd local
+|	time=1748859655
+cd nvim
+|	time=1748859705
+%localappdata%
+|	time=1748859709
+echo %localappdata%

@@ -1,0 +1,33 @@
+70a4 app_context::start_logger  503 ---- 2025/06/03 10:19:02.246 -------------------------------------------------
+70a4 app_context::start_logger  506 Host process is 'cmd.exe' (pid 28652)
+70a4 app_context::start_logger  510 DLL path is 'C:\Program Files (x86)\clink'
+70a4 app_context::start_logger  513 DLL base is 00007FFE930C0000
+70a4 app_context::start_logger  528 Windows version 10.0.26100 (x64)
+70a4 app_context::start_logger  530 Clink version 1.7.19.d8a218 (x64)
+70a4 hook_setter::hook_setter  176 >>> Started hook transaction.
+70a4 hook_setter::attach_iat   351 Hooking SetEnvironmentVariableW in IAT for module 00007FF61D630000 in 'api-ms-win-core-processenvironment-l1-1-0.dll' at 00007FF61D673E70 (value was 00007FFF1737AA10).
+70a4 hook_setter::attach_iat   351 Hooking SetEnvironmentStringsW in IAT for module 00007FF61D630000 in 'api-ms-win-core-processenvironment-l1-1-0.dll' at 00007FF61D673E78 (value was 00007FFF1738BE70).
+70a4 hook_setter::attach_iat   351 Hooking WriteConsoleW in IAT for module 00007FF61D630000 in 'api-ms-win-core-console-l1-1-0.dll' at 00007FF61D673AB8 (value was 00007FFF17374F10).
+70a4 hook_setter::attach_iat   351 Hooking GetEnvironmentVariableW in IAT for module 00007FF61D630000 in 'api-ms-win-core-processenvironment-l1-1-0.dll' at 00007FF61D673E50 (value was 00007FFF17355110).
+70a4 hook_setter::commit       227 <<< Hook transaction committed.
+70a4 initialise_clink          237 Inject completed at 2025/06/03 10:19:02.247
+70a4 hook_setter::hook_setter  176 >>> Started hook transaction.
+70a4 hook_setter::detach_iat   411 Unhooking GetEnvironmentVariableW in IAT for module 00007FF61D630000 in 'api-ms-win-core-processenvironment-l1-1-0.dll' at 00007FFE930ECD40.
+70a4 hook_setter::commit       227 <<< Hook transaction committed.
+70a4 hook_setter::hook_setter  176 >>> Started hook transaction.
+70a4 hook_setter::attach_iat   351 Hooking ReadConsoleW in IAT for module 00007FF61D630000 in 'api-ms-win-core-console-l1-1-0.dll' at 00007FF61D673AC8 (value was 00007FFF1738F370).
+70a4 hook_setter::attach_iat   351 Hooking SetConsoleTitleW in IAT for module 00007FF61D630000 in 'api-ms-win-core-console-l2-2-0.dll' at 00007FF61D673B30 (value was 00007FFF17364D50).
+70a4 hook_setter::commit       227 <<< Hook transaction committed.
+70a4 win_screen_buffer::begin  421 Using native terminal support (auto mode found 'WEZTERM_EXECUTABLE and WEZTERM_PANE').
+70a4 add_impl                  419 Setting "", short description too long; truncated from "zoxide.usepromptfilter" to "Use clink promptfilter to hook even if onbeginedit is supported".
+70a4 add_impl                  419 Setting "", short description too long; truncated from "zoxide.promptfilter_prio" to "Changes the priority of the promptfilter hook (only if usepromptfilter is true)".
+70a4 host_lua::load_scripts    208 Loaded 3 Lua scripts in 60 ms
+70a4 reset_handle              144 resetting mismatched stdout handle
+70a4 reset_handle              144 resetting mismatched stderr handle
+70a4 @~clink~/app/update.lua   423 Clink updater: too soon to check for updates (1748524142 vs 1748917142).
+70a4 history_db::initialise   1328 master bank ctag: |CTAG_1729139939_3454890_23712_0
+70a4 history_db::compact      1606 History:  2437 active, 13501 deleted
+70a4 reset_handle              144 resetting mismatched stdout handle
+70a4 reset_handle              144 resetting mismatched stdout handle
+70a4 reset_handle              144 resetting mismatched stderr handle
+70a4 history_db::compact      1606 History:  2436 active, 13502 deleted

@@ -1,0 +1,30 @@
+|	time=1748916063
+cd dotfile\
+|	time=1748916067
+dotfile-backup.bat 
+|	time=1748916085
+start.
+|	time=1748916437
+lg
+|	time=1748916602
+|zf
+|	time=1748916605
+|d ..
+|	time=1748916606
+ls
+|	time=1748916608
+|zf
+|	time=1748916891
+fzf
+|	time=1748916927
+cd AppData\local\neovide\
+|	time=1748916931
+nvim neovide-settings.json 
+|	time=1748916935
+|d ..
+|	time=1748916936
+|d ..
+|	time=1748916937
+cd ..
+|	time=1748916942
+fzf 
