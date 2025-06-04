@@ -33,6 +33,8 @@ config.cell_width = 1.0
 -- config.font = wezterm.font("Hack Regular")
 -- config.cell_width = 0.9
 config.font = wezterm.font_with_fallback {
+  'Terminess Nerd Font',
+  'BlexMono Nerd Font',
   'IosevkaTerm Nerd Font',
   'Iosevka Term SS14',
   '3270 Nerd Font',
