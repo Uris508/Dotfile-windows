@@ -253,6 +253,20 @@ local workspace_switcher = wezterm.plugin.require("https://github.com/MLFlexer/s
 -- config.window_padding = { left = "1cell", right = "1cell", top = "0.5cell", bottom = 0 }
 
 -- Settings
+config.keys = {
+  -- ...
+  -- your other keybindings
+  {
+    key = "s",
+    mods = "ALT",
+    action = workspace_switcher.switch_workspace(),
+  },
+  {
+    key = "S",
+    mods = "ALT",
+    action = workspace_switcher.switch_to_prev_workspace(),
+  }
+}
 workspace_switcher.apply_to_config(config)
 
 return config
