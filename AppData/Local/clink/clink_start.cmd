@@ -3,6 +3,9 @@ DOSKEY ls=dir $*
 DOSKEY zz=yazi $*
 DOSKEY lg=lazygit $*
 DOSKEY vim=nvim $*
-REM fastfetch -l pearos
-gostty -t 3
+:: fastfetch -l pearos
+IF NOT DEFINED NVIM (
+  gostty -t 3
+)
+cls
 @echo on
