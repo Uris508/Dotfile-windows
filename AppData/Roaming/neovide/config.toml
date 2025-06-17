@@ -1,7 +1,7 @@
 frame= "none"
 # title-hidden = true
 [font]
-normal = ["IosevkaTerm Nerd Font"]
+normal = ["Terminess Nerd Font"]
 size = 14.0
 [box-drawing]
 # "font-glyph", "native" or "selected-native"
