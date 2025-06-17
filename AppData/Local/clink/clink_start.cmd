@@ -2,5 +2,7 @@
 DOSKEY ls=dir $*
 DOSKEY zz=yazi $*
 DOSKEY lg=lazygit $*
-fastfetch -l pearos
+DOSKEY vim=nvim $*
+REM fastfetch -l pearos
+gostty -t 3
 @echo on
