@@ -91,6 +91,7 @@ window_rules:
       - window_process: {equals: "PowerToys.PowerAccent"}
         # Ignore rules for various 3rd-party apps.
       - window_process: {equals: "Lively"}
+      - window_process: {equals: "LineMediaPlayer"}
         window_class: {regex: "HwndWrapper*"}
 binding_modes:
   # When enabled, the focused window can be resized via arrow keys or HJKL.
