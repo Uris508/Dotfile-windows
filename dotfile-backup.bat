@@ -17,3 +17,9 @@ xcopy %localappdata%\clink %USERPROFILE%\dotfile\AppData\Local\clink /S /Y /E
 :: Neovide
 ::
 xcopy %USERPROFILE%\AppData\Roaming\neovide %USERPROFILE%\dotfile\AppData\Roaming\neovide /S /Y /E
+
+::
+:: Alacritty
+::
+xcopy %USERPROFILE%\AppData\Roaming\Alacritty %USERPROFILE%\dotfile\AppData\Roaming\Alacritty /S /Y /E
+
