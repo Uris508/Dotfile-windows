@@ -5,7 +5,9 @@ DOSKEY lg=lazygit $*
 DOSKEY vim=nvim $*
 :: fastfetch -l pearos
 IF NOT DEFINED NVIM (
-  gostty -t 3
+  REM gostty -t 3
+  cls
+  REM type %USERPROFILE%\appleII.ans
+  type %USERPROFILE%\shion.ans
 )
-cls
 @echo on
