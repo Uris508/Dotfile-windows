@@ -31,5 +31,10 @@ winget install --id=ajeetdsouza.zoxide -e
 ```
 6. Yazi
 ```
-winget install --id=sxyazi.yazi -e 
+winget install --id=sxyazi.yazi -e
+```
+
+7. Clink
+```
+winget install --id=chrisant996.Clink  -e
 ```
